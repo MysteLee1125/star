@@ -11,7 +11,7 @@ body{
 }
 #botton{
   position:relative;
-  top:1050px;
+  top:1150px;
   z-index: 6
 }
 #cover{
@@ -37,14 +37,14 @@ body{
 }
 .leftbutton{
     position:relative;
-    left:50px;
+    left:375px;
     width: 100px;
     height:40px;
     font-size: 20px;
 }
 .rightbutton{
     position:relative;
-    left:800px;
+    left:475px;
     width: 100px;
     height:40px;
     font-size: 20px;
