@@ -11,9 +11,6 @@ function rotatefront2(){
 }
 
 
-window.onresize = function(){
-  document.location.reload();
-};
 
 
 var windowWidth = $(window).width();
