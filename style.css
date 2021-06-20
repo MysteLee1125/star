@@ -67,7 +67,7 @@ body{
 
 .back{
     position: absolute;
-    top: 48px;
+    top: 480px;
     left: 80px;
     transform: rotate(-7deg);
 }
