@@ -3,15 +3,15 @@ body{
 }
 #title{
   position:relative;
-  top:50px;
-  left:120px;
+  top:140px;
+  left:160px;
   color:white;
   font-size: 60px;
   z-index: 5
 }
 #botton{
   position:relative;
-  top:1150px;
+  top:1390px;
   z-index: 6
 }
 #cover{
@@ -67,14 +67,14 @@ body{
 
 .back{
     position: absolute;
-    top: 240px;
+    top: 48px;
     left: 80px;
     transform: rotate(-7deg);
 }
 
 .front{
     position: absolute;
-    top: 200px;
+    top: 440px;
     left: 35px;
     transition: all 1s ease;
 }
