@@ -68,14 +68,14 @@ body{
 .back{
     position: absolute;
     top: 480px;
-    left: 80px;
+    left: 90px;
     transform: rotate(-7deg);
 }
 
 .front{
     position: absolute;
     top: 440px;
-    left: 35px;
+    left: 45px;
     transition: all 1s ease;
 }
 
