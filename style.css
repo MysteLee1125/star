@@ -87,7 +87,7 @@ body{
 
 .back{
       position: absolute;
-      top: 19.7%;
+      top: 22.7%;
       left: 4.2%;
       transform: rotate(-0.5deg);
       z-index: 7
@@ -95,7 +95,7 @@ body{
 
 .front{
       position: absolute;
-      top: 17%;
+      top: 20%;
       left: 0%;
       z-index: 7;
       transition: all 1s ease;
