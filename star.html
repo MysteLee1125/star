@@ -3,15 +3,19 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
-    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> 
     <title></title>
   </head>
   <body>
+  <div id="box">
     <div id="title">오늘밤 하늘은 어떻게 생겼을까?</div>
-    <div id="botton">
+    <div id="button">
       <button class="leftbutton" onclick="rotatefront()">1시간 전</button>
       <button class="rightbutton"onclick="rotatefront2()">1시간 후</button>
     </div>
+    <div class="front"><img src="down.png" width = "1000" height = "1000"></div>
+    <div class="back"><img src="up.png"/></div>
+  </div>
+
 <div id="cover">
     <div id="upper">
         <div class="star star-sm"></div>
@@ -25,8 +29,6 @@
     </div>
 </div>
 
-              <div class="front"><img src="down.png" width = "1000" height = "1000"></div>
-              <div class="back"><img src="up.png"/></div>
 
 
       <script src="http://code.jquery.com/jquery-latest.min.js"></script>
