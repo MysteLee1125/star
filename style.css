@@ -1,18 +1,30 @@
 body{
 
 }
+#box{
+  position: absolute;
+  left:50%;
+  width: 1010px;
+  height: 2000px;
+  transform:translate(-50%);
+  z-index: 9
+}
 #title{
-  position:relative;
-  top:140px;
-  left:160px;
+  position:absolute;
+  top:10%;
+  left:50%;
+  width:880px;
   color:white;
   font-size: 60px;
+  transform:translate(-50%);
   z-index: 5
 }
-#botton{
-  position:relative;
+#button{
+  position:absolute;
   top:1390px;
-  z-index: 6
+  width: 1010px;
+  height: 40px;
+  z-index: 8
 }
 #cover{
     position:fixed;
@@ -36,15 +48,15 @@ body{
     bottom: 0;
 }
 .leftbutton{
-    position:relative;
-    left:375px;
+    position:absolute;
+    left:260px;
     width: 100px;
     height:40px;
     font-size: 20px;
 }
 .rightbutton{
-    position:relative;
-    left:475px;
+    position:absolute;
+    left:630px;
     width: 100px;
     height:40px;
     font-size: 20px;
@@ -64,19 +76,30 @@ body{
     position: absolute;
 }
 
+#image{
+      position: absolute;
+      top:22.5%;
+      left:21.3%;
+      width: 1010px;
+      height: 1010px;
+
+}
 
 .back{
-    position: absolute;
-    top: 480px;
-    left: 90px;
-    transform: rotate(-7deg);
+      position: absolute;
+      top: 19.2%;
+      left: 4.2%;
+      transform: rotate(-0.5deg);
+      z-index: 7
 }
 
 .front{
-    position: absolute;
-    top: 440px;
-    left: 45px;
-    transition: all 1s ease;
+      position: absolute;
+      top: 17%;
+      left: 0%;
+      z-index: 7;
+      transition: all 1s ease;
+
 }
 
 .loaded{
