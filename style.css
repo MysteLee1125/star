@@ -5,7 +5,7 @@ body{
   position: absolute;
   left:50%;
   width: 1010px;
-  height: 2000px;
+  height: 1560px;
   transform:translate(-50%);
   z-index: 9
 }
