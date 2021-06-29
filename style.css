@@ -12,11 +12,11 @@ body{
 #title{
   position:absolute;
   top:10%;
-  left:70%;
+  left:50%;
   width:1000px;
   color:white;
   font-size: 68.8px;
-  transform:translate(-70%);
+  transform:translate(-50%);
   z-index: 5
 }
 #button{
